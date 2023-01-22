@@ -1,0 +1,71 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 8px;
+}
+
+.right {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.right.dark {
+    background-color: inherit;
+}
+
+.right h1 {
+    margin: 0;
+    font-size: 2em;
+    object-fit: cover;
+    text-shadow:
+        0 0 0 rgb(255, 0, 0),
+        0 0 0 rgb(0, 255, 0),
+        0 0 0 rgb(0, 0, 255);
+}
+
+.right h1:hover {
+    text-shadow:
+        0.3px -0.1px 0.1px rgb(255, 0, 0),
+        0.2px 0.1px 0 rgb(0, 255, 0),
+        -0.1px 0.2px 0 rgb(0, 0, 255);
+    transition: 0.2s cubic-bezier(0.5, 200, 0.5, -200);
+}
+
+.imgDiv {
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+img {
+    border-radius: 12px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left>span {
+    margin-bottom: 18px;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left li {
+    font-size: 0.7em;
+    margin-bottom: 10px;
+}
