@@ -80,3 +80,16 @@ img {
 a {
     color: black;
 }
+
+@media screen and (max-width:600px) {
+    .Header {
+        display: flex;
+        flex-direction: column;
+        margin-right: 24px;
+    }
+
+    .left {
+        margin-top: 8px;
+    }
+
+}
