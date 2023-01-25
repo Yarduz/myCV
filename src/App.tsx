@@ -13,7 +13,7 @@ const corpusHeb = {
     dateOfBirth: '03.08.1995',
     address: 'רחוב אורי בר און 41 ירושלים',
     email: 'yaloden12@gmail.com',
-    languages: 'עברית- שפת אם, אנגלית כשפת אם'
+    languages: 'עברית שפת אם, אנגלית כשפת אם'
   },
   sections: [
     {
@@ -30,8 +30,8 @@ const corpusHeb = {
     {
       title: "ניסיון תעסוקתי",
       events: [
-        { times: "2020-2021", bold: "חברת ריפבליק יועצים", description: "רפרנט כנסת ולוביסט, הובלת קשר עם לקוחות ומקבלי החלטות, איסוף מידע והנגשתו, כתיבת תוכניות אסטרטגיות וכלים פרלמנטריים." },
-        { times: "2019-2020", bold: "המועצה להשכלה גבוהה", description: "רכז באגף להערכת איכות" },
+        { times: "2021-2022", bold: "חברת ריפבליק יועצים", description: "רפרנט כנסת ולוביסט, הובלת קשר עם לקוחות ומקבלי החלטות, איסוף מידע והנגשתו, כתיבת תוכניות אסטרטגיות וכלים פרלמנטריים." },
+        { times: "2019-2021", bold: "המועצה להשכלה גבוהה", description: "רכז באגף להערכת איכות" },
         { times: "2017-2019", bold: "חונכות ומתן שיעורי עזר", description: "לימודי פסיכומטרי לסטודנטים במכינה קדם אקדמאית ולימודי עזר לסטודנטים בעלי לקות ראייה" }]
     },
     {
@@ -47,7 +47,7 @@ const corpusHeb = {
 const corpusEng = {
   header: {
     name: "Yarden Biyalistok Cohen",
-    position: 'FullStack developer aplicant',
+    position: 'FullStack developer applicant',
     cellNum: '050-636-5555',
     dateOfBirth: '03.08.1995',
     address: 'Uri Bar-On 41 Jerusalem',
