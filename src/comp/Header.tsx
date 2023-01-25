@@ -1,3 +1,4 @@
+import { fstat } from "fs";
 import React from "react";
 import './Header.css'
 
@@ -39,6 +40,7 @@ function Header(props: {
                     <li><b>{props.dateOfBirth}</b></li>
                     <li><b>{props.email}</b></li>
                 </ul>
+                <button className="pdf"><a className="pdf" href=".././public/CV.pdf" download>download pdf</a></button>
             </div>
         </div >
     )

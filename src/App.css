@@ -16,6 +16,7 @@ body,
   background-color: rgb(11, 7, 21);
 }
 
-.material-symbols-outlined {
+.material-symbols-outlined,
+button {
   cursor: pointer;
 }

@@ -3,6 +3,7 @@
     justify-content: space-around;
     margin: 0;
     padding: 8px;
+    margin-bottom: 12px;
 }
 
 .right {
@@ -57,6 +58,7 @@ img {
 
 .left>span {
     margin-bottom: 18px;
+    margin-right: 8px;
 }
 
 .left ul {
@@ -68,4 +70,13 @@ img {
 .left li {
     font-size: 0.7em;
     margin-bottom: 10px;
+}
+
+.pdf {
+    border-radius: 8px;
+    border: 2px black block;
+}
+
+a {
+    color: black;
 }

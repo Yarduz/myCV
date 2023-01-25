@@ -72,13 +72,21 @@ td {
 
 .description>span {
     align-self: flex-end;
+    /* position: relative;
+    bottom: 4px; */
+}
+
+p>span {
     position: relative;
-    bottom: 24px;
+    top: 6px;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
 }
 
 h3 {
     font-size: 1.4rem;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
     text-decoration: underline;
 }
 
@@ -104,4 +112,22 @@ h3 {
     h3 {
         font-size: 1.2rem;
     }
+}
+
+.my-node-enter {
+    opacity: 0;
+}
+
+.my-node-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.my-node-exit {
+    opacity: 1;
+}
+
+.my-node-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
 }
