@@ -12,8 +12,10 @@ function Header(props: {
     mode: string,
     setMode: any,
     setLang: any,
-    URL: string
+    URL: string,
+    languages: string
 }) {
+
     return (
         <div className="Header">
             <div className={`right ${props.mode}`}>
@@ -39,8 +41,9 @@ function Header(props: {
                     <li> {props.cellNum}</li>
                     <li><b>{props.dateOfBirth}</b></li>
                     <li><b>{props.email}</b></li>
+                    <li><b>{props.languages}</b></li>
                 </ul>
-                <button className="pdf"><a className="pdf" href=".././public/CV.pdf" download>download pdf</a></button>
+                <button className="pdf"><a className="pdf" href=".././CV.pdf" download>download pdf</a></button>
             </div>
         </div >
     )

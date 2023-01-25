@@ -12,7 +12,8 @@ const corpusHeb = {
     cellNum: '050-636-5555',
     dateOfBirth: '03.08.1995',
     address: 'רחוב אורי בר און 41 ירושלים',
-    email: 'yaloden12@gmail.com'
+    email: 'yaloden12@gmail.com',
+    languages: 'עברית- שפת אם, אנגלית כשפת אם'
   },
   sections: [
     {
@@ -50,7 +51,8 @@ const corpusEng = {
     cellNum: '050-636-5555',
     dateOfBirth: '03.08.1995',
     address: 'Uri Bar-On 41 Jerusalem',
-    email: 'yaloden12@gmail.com'
+    email: 'yaloden12@gmail.com',
+    languages: "Hebrew - Native, English - as a Native"
   },
   sections: [
     {
@@ -122,6 +124,7 @@ function App() {
         address={corpus.header.address}
         email={corpus.header.email}
         URL={URL}
+        languages={corpus.header.languages}
       />
       {
         corpus.sections.map(each => {
