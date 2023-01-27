@@ -3,7 +3,7 @@ import './App.css';
 import Section from './comp/Section';
 import Header from './comp/Header';
 
-const URL: string = 'https://bcyardencv.netlify.app/'
+const URL: string = 'https://github.com/Yarduz' as const
 
 const corpusHeb = {
   header: {
@@ -123,7 +123,7 @@ function App() {
         dateOfBirth={corpus.header.dateOfBirth}
         address={corpus.header.address}
         email={corpus.header.email}
-        URL={URL}
+        git={URL}
         languages={corpus.header.languages}
       />
       {

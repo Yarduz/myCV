@@ -11,7 +11,7 @@ function Header(props: {
     mode: string,
     setMode: any,
     setLang: any,
-    URL: string,
+    git: string,
     languages: string
 }) {
 
@@ -42,7 +42,10 @@ function Header(props: {
                     <li><b>{props.email}</b></li>
                     <li><b>{props.languages}</b></li>
                 </ul>
-                <button className="pdf"><a className="pdf" href=".././CV.pdf" download>download pdf</a></button>
+                <div>
+                    <i onClick={() => { window.open(props.git) }} className="bi bi-github"></i>
+                    <button className="pdf"><a className="pdf" href=".././CV.pdf" download>download pdf</a></button>
+                </div>
             </div>
         </div >
     )
